@@ -1,0 +1,18 @@
+class Largest {
+    int a = 15, b = 25;
+
+    void findLargest() {
+        if (a > b) {
+            System.out.println(a + " is largest");
+        } else {
+            System.out.println(b + " is largest");
+        }
+    }
+}
+
+public class Main6 {
+    public static void main(String[] args) {
+        Largest obj = new Largest();
+        obj.findLargest();
+    }
+}
