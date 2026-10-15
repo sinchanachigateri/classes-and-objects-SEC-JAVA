@@ -1,0 +1,14 @@
+class Square {
+    int num = 6;
+
+    void findSquare() {
+        System.out.println("Square: " + (num * num));
+    }
+}
+
+public class Main5 {
+    public static void main(String[] args) {
+        Square obj = new Square();
+        obj.findSquare();
+    }
+}
