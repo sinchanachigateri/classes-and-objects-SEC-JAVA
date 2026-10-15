@@ -1,0 +1,18 @@
+class CheckNumber {
+    int num = 7;
+
+    void check() {
+        if (num % 2 == 0) {
+            System.out.println(num + " is Even");
+        } else {
+            System.out.println(num + " is Odd");
+        }
+    }
+}
+
+public class Main4 {
+    public static void main(String[] args) {
+        CheckNumber obj = new CheckNumber();
+        obj.check();
+    }
+}
