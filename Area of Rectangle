@@ -1,0 +1,14 @@
+class Rectangle {
+    int length = 5, breadth = 4;
+
+    void area() {
+        System.out.println("Area of Rectangle: " + (length * breadth));
+    }
+}
+
+public class Main3 {
+    public static void main(String[] args) {
+        Rectangle rect = new Rectangle();
+        rect.area();
+    }
+}
